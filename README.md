@@ -57,7 +57,6 @@ http://localhost:4200/books
 5.- En caso de que la aplicacion de Angular se monte en una direccion o puerto distinto, actualizar el valor de  origins
 ```
 @CrossOrigin(origins = "http://localhost:4200")
-
 ```
 
 en el archivo (BookController).
@@ -69,13 +68,18 @@ en el archivo (BookController).
 Spring Boot App
 ```
 
-7.- Los servicios se montaran en la siguiente url 
+7.- Los servicios se montaran en la siguiente url por default
 
 ```
-  http://localhost:8200/books
+http://localhost:8200/books
 ```
 
-8.- Metodos disponibles
+8.- Si se cambia el puerto o se monta en un servidor que no se el mismo que la App de Angular, se debera actualizar la variable que contiene la ruta de los servicios que esta en el archivo books.service.ts del proyecto AppLibrary.
+```
+APIURL:string = 'http://localhost:8200/books'
+```
+
+9.- Metodos disponibles
 
 ```
 GET : http://localhost:8200/books
