@@ -1,17 +1,18 @@
 # dsIndigo
 
 ### PRE REQUISITOS
-1.- IDE Eclipse
 
-2.- JDK 1.8
+* [IDE Eclipse](https://www.eclipse.org/downloads/)
 
-3.- MYSQL
+* [JAVA JDK 1.8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
-4.- MAVEN
+* [MYSQL](https://dev.mysql.com/downloads/installer/)
 
-5.- NODE JS
+* [MAVEN](https://maven.apache.org/install.html)
 
-6.- ANGULAR CLI
+* [NODE JS](https://nodejs.org/es/)
+
+* [ANGULAR CLI](https://cli.angular.io/)
 
 ### APP LIBRARY
 
