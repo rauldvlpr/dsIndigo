@@ -1,0 +1,44 @@
+
+<head>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+</head>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <h2>Books</h2>
+            <hr/>
+            <a class="btn btn-primary" routerLink="/addBook/new">Add Book</a>
+            <br/>
+            <br/>
+            <br/>
+            <table class="table">
+                <tr>
+                    <th>Name</th>
+                    <th>Author</th>
+                    <th>Pages</th>
+                    <th>Editorial</th>
+                    <th>Update</th>
+                    <th>Delete</th>
+                </tr>
+                <tr *ngFor="let book of books">
+                    <td>{{book.name}}</td>
+                    <td>{{book.author}}</td>
+                    <td>{{book.pages}}</td>
+                    <td>{{book.editorial}}</td>
+                    <td><a routerLink="/updateBook/{{book.id}}"><i class="material-icons" style="font-size:20px">border_color</i></a></td>
+                    <td><a (click)="deleleBook(book.id)"><i class="material-icons" style="font-size:20px">delete</i></a></td>
+
+                </tr>
+            </table>
+
+            <!--ul class="list-group">
+                <ng-container *ngFor="let book of books">
+                    <a routerLink="/addBook/{{book.id}}">
+                        <li class="list-group-item">{{book.name}}</li>
+                    </a>
+                </ng-container>
+            </ul-->
+        </div>
+    </div>
+</div>
