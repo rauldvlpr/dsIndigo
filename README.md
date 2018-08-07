@@ -62,24 +62,30 @@ http://localhost:4200/books
 en el archivo (BookController).
 
 
-6.- Una vez terminada la compilacion , procede a ejecutar el aplicacion desde el IDE como (Run As) :
+6.- Desde el Eclipse Marketplace instalar el siguiente completo, con la finalidad de que el IDE soporte aplicaciones tipo Spring.
+```
+Spring Tools (aka Spring IDE an Spring Tools Suite)
+```
+
+
+7.- Una vez terminada la compilacion , procede a ejecutar el aplicacion desde el IDE como (Run As) :
 
 ```
 Spring Boot App
 ```
 
-7.- Los servicios se montaran en la siguiente url por default
+8.- Los servicios se montaran en la siguiente url por default
 
 ```
 http://localhost:8200/books
 ```
 
-8.- Si se cambia el puerto o se monta en un servidor que no se el mismo que la App de Angular, se debera actualizar la variable que contiene la ruta de los servicios que esta en el archivo books.service.ts del proyecto AppLibrary.
+9.- Si se cambia el puerto o se monta en un servidor que no se el mismo que la App de Angular, se debera actualizar la variable que contiene la ruta de los servicios que esta en el archivo books.service.ts del proyecto AppLibrary.
 ```
 APIURL:string = 'http://localhost:8200/books'
 ```
 
-9.- Metodos disponibles
+10.- Metodos disponibles
 
 ```
 GET : http://localhost:8200/books
