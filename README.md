@@ -62,7 +62,7 @@ http://localhost:4200/books
 en el archivo (BookController).
 
 
-6.- Desde el Eclipse Marketplace instalar el siguiente completo, con la finalidad de que el IDE soporte aplicaciones tipo Spring.
+6.- Desde el Eclipse Marketplace instalar el siguiente complemeto, con la finalidad de que el IDE soporte aplicaciones tipo Spring.
 ```
 Spring Tools (aka Spring IDE an Spring Tools Suite)
 ```
